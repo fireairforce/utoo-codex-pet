@@ -1,0 +1,106 @@
+{
+  "pet": {
+    "id": "utoo",
+    "displayName": "Utoo",
+    "description": "A fast blue-and-white Utoo bundler bunny desktop pet for Codex."
+  },
+  "atlas": {
+    "format": "WEBP",
+    "mode": "RGBA",
+    "width": 1536,
+    "height": 1872,
+    "columns": 8,
+    "rows": 9,
+    "cellWidth": 192,
+    "cellHeight": 208
+  },
+  "states": [
+    {
+      "state": "idle",
+      "row": 0,
+      "frames": 6,
+      "purpose": "neutral breathing/blinking loop",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "running-right",
+      "row": 1,
+      "frames": 8,
+      "purpose": "rightward locomotion loop",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "running-left",
+      "row": 2,
+      "frames": 8,
+      "purpose": "leftward locomotion loop",
+      "source": "deterministic mirror of running-right"
+    },
+    {
+      "state": "waving",
+      "row": 3,
+      "frames": 4,
+      "purpose": "greeting gesture with raised wave and return",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "jumping",
+      "row": 4,
+      "frames": 5,
+      "purpose": "anticipation, lift, peak, descent, settle",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "failed",
+      "row": 5,
+      "frames": 8,
+      "purpose": "sad, failed, or deflated reaction",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "waiting",
+      "row": 6,
+      "frames": 6,
+      "purpose": "patient waiting loop with small motion",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "running",
+      "row": 7,
+      "frames": 6,
+      "purpose": "active working/in-progress loop",
+      "source": "built-in-imagegen"
+    },
+    {
+      "state": "review",
+      "row": 8,
+      "frames": 6,
+      "purpose": "focused inspecting or review loop",
+      "source": "built-in-imagegen"
+    }
+  ],
+  "references": [
+    {
+      "path": "assets/references/utoo-logo-reference.png",
+      "role": "original Utoo logo reference"
+    },
+    {
+      "path": "assets/references/utoo-pack-reference.png",
+      "role": "utoopack visual reference"
+    },
+    {
+      "path": "assets/references/canonical-base.png",
+      "role": "canonical generated identity reference"
+    }
+  ],
+  "qa": {
+    "validation": "assets/qa/validation.json",
+    "review": "assets/qa/review.json",
+    "contactSheet": "assets/qa/contact-sheet.png",
+    "videos": "assets/qa/videos"
+  },
+  "notes": [
+    "Generated with the Codex hatch-pet workflow and built-in imagegen.",
+    "running-left was mirrored from running-right after checking that the pet has no text, handed prop, or side-specific marking."
+  ]
+}
