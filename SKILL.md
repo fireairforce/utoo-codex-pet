@@ -5,7 +5,7 @@ description: Install the bundled Utoo custom Codex desktop pet, a blue-and-white
 
 # utoo-codex-pet
 
-This skill installs the bundled Utoo Codex desktop pet into:
+This skill installs the bundled Utoo Codex desktop pet, based on the [Utoo](https://github.com/utooland/utoo) visual references, into:
 
 ```bash
 ${CODEX_HOME:-$HOME/.codex}/pets/utoo

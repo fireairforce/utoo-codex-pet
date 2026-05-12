@@ -1,8 +1,8 @@
 # utoo-codex-pet
 
-Utoo is a custom Codex desktop pet generated from the Utoo / utoopack visual references. It is a compact blue-and-white bunny-like mascot with pixel-adjacent Codex pet styling.
+Utoo is a custom Codex desktop pet generated from the [Utoo](https://github.com/utooland/utoo) / utoopack visual references. It is a compact blue-and-white bunny-like mascot with pixel-adjacent Codex pet styling.
 
-Utoo 是一个基于 Utoo / utoopack 视觉参考生成的 Codex 桌面宠物。它保留了蓝白兔形轮廓，并整理成可本地安装、分享和复用的目录仓库。
+Utoo 是一个基于 [Utoo](https://github.com/utooland/utoo) / utoopack 视觉参考生成的 Codex 桌面宠物。它保留了蓝白兔形轮廓，并整理成可本地安装、分享和复用的目录仓库。
 
 ## Preview
 
