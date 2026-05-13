@@ -1,0 +1,7 @@
+interface:
+  display_name: "Utoo Watchdog"
+  short_description: "Watch utoopack builds, installs, and Codex skills."
+  brand_color: "#149CEB"
+  default_prompt: "Use $utoo-codex-pet to watch this project's utoopack build and explain any failure."
+policy:
+  allow_implicit_invocation: true

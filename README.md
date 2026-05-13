@@ -4,6 +4,20 @@ Utoo is a custom Codex desktop pet generated from the [Utoo](https://github.com/
 
 Utoo 是一个基于 [Utoo](https://github.com/utooland/utoo) / utoopack 视觉参考生成的 Codex 桌面宠物。它保留了蓝白兔形轮廓，并整理成可本地安装、分享和复用的目录仓库。
 
+## Watchdog Features
+
+The repo also includes a local Codex skill and watchdog script so Utoo can help watch utoopack-related work:
+
+- Watch `smallfish`, `bigfish`, `father`, and `dumi` projects for utoopack build setup and likely failure points.
+- Wrap utoopack build or dependency installation commands, capture logs, classify failures, and generate reports for Codex AI analysis.
+- Inspect local Codex skill and pet installation state.
+
+这个仓库现在不只是宠物资源，也包含一个本地 Codex skill / watchdog 脚本：
+
+- 盯防 `smallfish` / `bigfish` / `father` / `dumi` 项目的 utoopack 构建任务。
+- 盯防 utoopack 依赖安装问题，并为失败任务保留日志和故障分类。
+- 检查本地 Codex skills / pets 环境。
+
 ## Preview
 
 | State | Preview | Frames |
@@ -38,10 +52,29 @@ ${CODEX_HOME:-$HOME/.codex}/pets/utoo
 
 Then restart Codex or refresh the pet list and select `Utoo`.
 
+Install the watchdog skill:
+
+```bash
+bash scripts/install_skill.sh
+```
+
+Use the watchdog directly:
+
+```bash
+python3 scripts/utoo_watchdog.py scan --project /path/to/project
+python3 scripts/utoo_watchdog.py run --project /path/to/project --label utoopack-build -- pnpm build
+python3 scripts/utoo_watchdog.py run --project /path/to/project --label deps-install -- pnpm install
+python3 scripts/utoo_watchdog.py codex
+```
+
+Reports are written to `reports/` by default. In Codex, you can ask: `用 $utoo-codex-pet 盯防这个项目的 utoopack 构建任务`.
+
 ## Included
 
-- `SKILL.md`: Codex skill instructions for installing this pet.
+- `SKILL.md`: Codex skill instructions for installing this pet and running the Utoo watchdog.
 - `scripts/install_utoo.sh`: local installer.
+- `scripts/install_skill.sh`: installs this repo as a local Codex skill.
+- `scripts/utoo_watchdog.py`: project / command / Codex skill watchdog.
 - `assets/utoo/pet.json`: pet metadata.
 - `assets/utoo/spritesheet.webp`: Codex-ready animation atlas.
 - `assets/utoo/spritesheet.png`: PNG copy of the atlas for inspection.
