@@ -1,0 +1,88 @@
+{
+  "pairs": [
+    {
+      "pair": "horizontal-1",
+      "A": "ambiguous",
+      "B": "screen-right",
+      "reason": "A frontal symmetric ears; B face oval and eye toward right."
+    },
+    {
+      "pair": "horizontal-2",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A left profile; B face mass turns right."
+    },
+    {
+      "pair": "horizontal-3",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "Opposing profiles with matching slit directions."
+    },
+    {
+      "pair": "horizontal-4",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A slit and muzzle left; B slit and muzzle right."
+    },
+    {
+      "pair": "horizontal-5",
+      "A": "screen-left",
+      "B": "screen-right",
+      "reason": "A visible face/eye left; B right profile."
+    },
+    {
+      "pair": "horizontal-6",
+      "A": "screen-right",
+      "B": "screen-left",
+      "reason": "A bowed face/slit right; B low slit on left-facing side."
+    },
+    {
+      "pair": "horizontal-7",
+      "A": "ambiguous",
+      "B": "screen-left",
+      "reason": "A balanced ears without side cue; B slight left tilt and low left slit."
+    },
+    {
+      "pair": "vertical-1",
+      "A": "up",
+      "B": "down",
+      "reason": "A high eyes on upward face; B low facial marks."
+    },
+    {
+      "pair": "vertical-2",
+      "A": "down",
+      "B": "up",
+      "reason": "A low downward slits; B high eye on upturned face."
+    },
+    {
+      "pair": "vertical-3",
+      "A": "down",
+      "B": "up",
+      "reason": "A bowed head and low slit; B high eye on upturned face."
+    },
+    {
+      "pair": "vertical-4",
+      "A": "ambiguous",
+      "B": "ambiguous",
+      "reason": "Strong side-profile cues but little vertical tilt."
+    },
+    {
+      "pair": "vertical-5",
+      "A": "up",
+      "B": "down",
+      "reason": "A high eyes; B bowed head and low slit."
+    },
+    {
+      "pair": "vertical-6",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A side-facing without vertical cue; B bowed head and low slit."
+    },
+    {
+      "pair": "vertical-7",
+      "A": "ambiguous",
+      "B": "down",
+      "reason": "A side profile without clear tilt; B lowered face and low slit."
+    }
+  ]
+}

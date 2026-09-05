@@ -8,9 +8,9 @@
     "format": "WEBP",
     "mode": "RGBA",
     "width": 1536,
-    "height": 1872,
+    "height": 2288,
     "columns": 8,
-    "rows": 9,
+    "rows": 11,
     "cellWidth": 192,
     "cellHeight": 208
   },
@@ -77,6 +77,40 @@
       "frames": 6,
       "purpose": "focused inspecting or review loop",
       "source": "built-in-imagegen"
+    },
+    {
+      "state": "look-directions-a",
+      "row": 9,
+      "frames": 8,
+      "purpose": "clockwise gaze from up through down-right",
+      "degrees": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90,
+        112.5,
+        135,
+        157.5
+      ],
+      "source": "built-in-imagegen coherent eight-pose row"
+    },
+    {
+      "state": "look-directions-b",
+      "row": 10,
+      "frames": 8,
+      "purpose": "clockwise gaze from down through up-left",
+      "degrees": [
+        180,
+        202.5,
+        225,
+        247.5,
+        270,
+        292.5,
+        315,
+        337.5
+      ],
+      "source": "built-in-imagegen coherent eight-pose row"
     }
   ],
   "references": [
@@ -91,16 +125,36 @@
     {
       "path": "assets/references/canonical-base.png",
       "role": "canonical generated identity reference"
+    },
+    {
+      "path": "assets/references/neutral.png",
+      "role": "neutral reference extracted from the approved v2 atlas"
     }
   ],
   "qa": {
     "validation": "assets/qa/validation.json",
     "review": "assets/qa/review.json",
     "contactSheet": "assets/qa/contact-sheet.png",
-    "videos": "assets/qa/videos"
+    "videos": "assets/qa/videos",
+    "directions": "assets/qa/look-directions.png",
+    "directionSemantics": "assets/qa/direction-semantics.json",
+    "blindValidation": "assets/qa/direction-blind-validation.json",
+    "continuity": "assets/qa/look-continuity.json",
+    "despill": "assets/qa/chroma-despill-extended.json",
+    "visualReview": "assets/qa/final-visual-qa.json",
+    "previews": "assets/previews",
+    "summary": "assets/qa/summary.json"
   },
   "notes": [
     "Generated with the Codex hatch-pet workflow and built-in imagegen.",
-    "running-left was mirrored from running-right after checking that the pet has no text, handed prop, or side-specific marking."
-  ]
+    "running-left was mirrored from running-right after checking that the pet has no text, handed prop, or side-specific marking.",
+    "Version 2 adds 16 clockwise look directions at 22.5-degree intervals and a neutral cell at row 0, column 6.",
+    "All 57 original animation frames retain their alpha and geometry; one final edge-local chroma cleanup was applied to the completed atlas.",
+    "All four cardinal directions passed three independent blind reviews. Minor intermediate-axis ambiguities were accepted after labeled loop review."
+  ],
+  "spriteVersionNumber": 2,
+  "neutralLookFrame": {
+    "rowIndex": 0,
+    "columnIndex": 6
+  }
 }

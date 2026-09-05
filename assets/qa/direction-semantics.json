@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "reviewed_by": "independent revised_gaze_qa worker; parent reviewed full16sheet",
+  "directions": [
+    {
+      "degrees": "000",
+      "verdict": "pass",
+      "expected": "up",
+      "observed": "up",
+      "horizontal": "front symmetric",
+      "vertical": "lifted face and high arced angular slits",
+      "reason": "Clearly different from neutral"
+    },
+    {
+      "degrees": "022.5",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal": "mild right face turn",
+      "vertical": "high slits and lifted head",
+      "reason": "Both axes visible"
+    },
+    {
+      "degrees": "045",
+      "verdict": "pass",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal": "right turn of head/ears and face mass",
+      "vertical": "eyes high on face",
+      "reason": "Coherent diagonal"
+    },
+    {
+      "degrees": "067.5",
+      "verdict": "warning",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal": "right face profile",
+      "vertical": "high head carriage",
+      "reason": "Both axes readable",
+      "blind_review_note": "Isolated blind consensus uncertain on vertical axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    },
+    {
+      "degrees": "090",
+      "verdict": "pass",
+      "expected": "right",
+      "observed": "right",
+      "horizontal": "clear right profile and angular slit",
+      "vertical": "level head",
+      "reason": "Unmistakable right cardinal"
+    },
+    {
+      "degrees": "112.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down-right, subtle vertical",
+      "horizontal": "right profile and slit",
+      "vertical": "slightly lower face/eye",
+      "reason": "Subtle down cue accepted in coherent loop",
+      "blind_review_note": "Isolated blind consensus uncertain on vertical axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    },
+    {
+      "degrees": "135",
+      "verdict": "pass",
+      "expected": "down-right",
+      "observed": "down-right",
+      "horizontal": "rightward bowed silhouette",
+      "vertical": "lowered head and low slit",
+      "reason": "Both axes visible"
+    },
+    {
+      "degrees": "157.5",
+      "verdict": "warning",
+      "expected": "down-right",
+      "observed": "down with slight right",
+      "horizontal": "very subtle right turn",
+      "vertical": "mostly frontal bowed-down head",
+      "reason": "Near-down intermediate flows naturally toward180",
+      "blind_review_note": "Isolated blind consensus uncertain on horizontal axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    },
+    {
+      "degrees": "180",
+      "verdict": "pass",
+      "expected": "down",
+      "observed": "down",
+      "horizontal": "front symmetric",
+      "vertical": "bowed head and low angular slits",
+      "reason": "Clear down, distinctfromneutral"
+    },
+    {
+      "degrees": "202.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal": "leftward bowed head and ear mass",
+      "vertical": "low eye slit and bow",
+      "reason": "Both axes visible"
+    },
+    {
+      "degrees": "225",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal": "left-leaning bowed silhouette",
+      "vertical": "clear low head/eye",
+      "reason": "Similar to202.5 but correct quadrant"
+    },
+    {
+      "degrees": "247.5",
+      "verdict": "pass",
+      "expected": "down-left",
+      "observed": "down-left",
+      "horizontal": "left side face and angular slit",
+      "vertical": "lowered head and eye",
+      "reason": "Both axes readable"
+    },
+    {
+      "degrees": "270",
+      "verdict": "pass",
+      "expected": "left",
+      "observed": "left",
+      "horizontal": "clear left profile and angular slit",
+      "vertical": "level head",
+      "reason": "Unmistakable left cardinal"
+    },
+    {
+      "degrees": "292.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "left side face and angular slit",
+      "vertical": "raised head and ear angle",
+      "reason": "Both axes readable",
+      "blind_review_note": "Isolated blind consensus uncertain on vertical axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    },
+    {
+      "degrees": "315",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "left side profile",
+      "vertical": "elevated face and sweptback ears",
+      "reason": "Clear up-left",
+      "blind_review_note": "Isolated blind consensus uncertain on vertical axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    },
+    {
+      "degrees": "337.5",
+      "verdict": "warning",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "subtle leftward face/eye bias",
+      "vertical": "lifted face and high slits",
+      "reason": "Nearup intermediate smoothly closes loop",
+      "blind_review_note": "Isolated blind consensus uncertain on horizontal axis; independent labeled normal-size loop review confirms correct quadrant without reversal."
+    }
+  ],
+  "continuity": "157.5to180 width/area difference visible but not conspicuouspop;337.5to000 smooth; centered stable registration",
+  "warnings": [
+    "112.5 downward cue subtle",
+    "157.5 rightward cue subtle",
+    "225 similar to202.5",
+    "Natural width variation at157.5to180",
+    "Leg gaps create benign alpha-hole metric flags"
+  ],
+  "final_reviewed_by": "independent final_visual_qa worker",
+  "final_visual_qa": "pass"
+}

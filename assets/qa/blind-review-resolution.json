@@ -1,0 +1,66 @@
+{
+  "decision": "accept",
+  "severity": "minor",
+  "reviewed_by": "parent",
+  "failed_checks": [
+    "horizontal-1 A horizontal axis is ambiguous",
+    "horizontal-7 A horizontal axis is ambiguous",
+    "vertical-4 A vertical axis is ambiguous",
+    "vertical-4 B vertical axis is ambiguous",
+    "vertical-6 A vertical axis is ambiguous",
+    "vertical-7 A vertical axis is ambiguous"
+  ],
+  "cardinals": "All3 independent reviewers correctly classified all4cardinals; strictmajorityhardgatespass",
+  "labeled_evidence": [
+    {
+      "degrees": "067.5",
+      "expected": "up-right",
+      "observed": "up-right",
+      "horizontal": "right face profile",
+      "vertical": "high head carriage",
+      "reason": "Both axes readable"
+    },
+    {
+      "degrees": "112.5",
+      "expected": "down-right",
+      "observed": "down-right, subtle vertical",
+      "horizontal": "right profile and slit",
+      "vertical": "slightly lower face/eye",
+      "reason": "Subtle down cue accepted in coherent loop"
+    },
+    {
+      "degrees": "157.5",
+      "expected": "down-right",
+      "observed": "down with slight right",
+      "horizontal": "very subtle right turn",
+      "vertical": "mostly frontal bowed-down head",
+      "reason": "Near-down intermediate flows naturally toward180"
+    },
+    {
+      "degrees": "292.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "left side face and angular slit",
+      "vertical": "raised head and ear angle",
+      "reason": "Both axes readable"
+    },
+    {
+      "degrees": "315",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "left side profile",
+      "vertical": "elevated face and sweptback ears",
+      "reason": "Clear up-left"
+    },
+    {
+      "degrees": "337.5",
+      "expected": "up-left",
+      "observed": "up-left",
+      "horizontal": "subtle leftward face/eye bias",
+      "vertical": "lifted face and high slits",
+      "reason": "Nearup intermediate smoothly closes loop"
+    }
+  ],
+  "continuity_evidence": "Independent full-loop review confirms no wrongquadrant, reversal, conspicuouspop or identitychange. Boundarycenters1.4px and2.0px; headpitch/yaw continuous. Feet-gap alpha-hole flags are intentional negative space.",
+  "note": "No major failure overridden; six intermediate axis ambiguities accepted as warnings."
+}

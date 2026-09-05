@@ -1,6 +1,16 @@
 {
   "ok": true,
-  "frames_root": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames",
+  "states": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review"
+  ],
   "errors": [],
   "warnings": [],
   "rows": [
@@ -8,14 +18,13 @@
       "state": "idle",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21566,
@@ -26,11 +35,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 195
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21004,
@@ -41,11 +49,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 122
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21296,
@@ -56,11 +63,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 169
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21233,
@@ -71,11 +77,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 200
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21300,
@@ -86,11 +91,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 205
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/idle/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21061,
@@ -101,22 +105,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 118
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 0
     },
     {
       "state": "running-right",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20856,
@@ -127,11 +131,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 131
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20947,
@@ -142,11 +145,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 174
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20584,
@@ -157,11 +159,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 159
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21345,
@@ -172,11 +173,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19905,
@@ -187,11 +187,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 165
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19900,
@@ -202,11 +201,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20351,
@@ -217,11 +215,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 193
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-right/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20056,
@@ -232,22 +229,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 204
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 1
     },
     {
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20056,
@@ -258,11 +255,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 204
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20351,
@@ -273,11 +269,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 193
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19900,
@@ -288,11 +283,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 215
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19905,
@@ -303,11 +297,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 165
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 21345,
@@ -318,11 +311,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 166
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20584,
@@ -333,11 +325,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 159
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20947,
@@ -348,11 +339,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 174
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running-left/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20856,
@@ -363,22 +353,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 131
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 2
     },
     {
       "state": "waving",
       "expected_frames": 4,
       "actual_frames": 4,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waving/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19890,
@@ -389,11 +379,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 87
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waving/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19811,
@@ -404,11 +393,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 57
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waving/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19971,
@@ -419,11 +407,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 61
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waving/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19714,
@@ -434,22 +421,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 56
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 3
     },
     {
       "state": "jumping",
       "expected_frames": 5,
       "actual_frames": 5,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/jumping/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23072,
@@ -460,11 +447,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 209
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/jumping/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19621,
@@ -475,11 +461,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 127
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/jumping/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 23117,
@@ -490,11 +475,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 180
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/jumping/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18456,
@@ -505,11 +489,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 98
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/jumping/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19906,
@@ -520,22 +503,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 52
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 4
     },
     {
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19921,
@@ -546,11 +529,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 126
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20627,
@@ -561,11 +543,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 106
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 29773,
@@ -576,11 +557,10 @@
             201
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 253
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18955,
@@ -591,11 +571,10 @@
             168
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 115
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 14738,
@@ -606,11 +585,10 @@
             155
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 135
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 29732,
@@ -621,11 +599,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 207
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/06.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 22623,
@@ -636,11 +613,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 220
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/failed/07.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20072,
@@ -651,22 +627,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 193
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 5
     },
     {
       "state": "waiting",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19876,
@@ -677,11 +653,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 151
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 24049,
@@ -692,11 +667,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 151
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18978,
@@ -707,11 +681,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 77
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20696,
@@ -722,11 +695,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 150
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17932,
@@ -737,11 +709,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 82
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/waiting/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19814,
@@ -752,22 +723,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 99
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 6
     },
     {
       "state": "running",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20250,
@@ -778,11 +749,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 72
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19830,
@@ -793,11 +763,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 128
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19813,
@@ -808,11 +777,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 118
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 20542,
@@ -823,11 +791,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 200
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19855,
@@ -838,11 +805,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 105
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/running/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19757,
@@ -853,22 +819,22 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 121
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 7
     },
     {
       "state": "review",
       "expected_frames": 6,
       "actual_frames": 6,
-      "extraction_method": "components",
+      "extraction_method": null,
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/00.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18416,
@@ -879,11 +845,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 79
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/01.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18258,
@@ -894,11 +859,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 104
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/02.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19428,
@@ -909,11 +873,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 118
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/03.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 18511,
@@ -924,11 +887,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 93
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/04.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 17927,
@@ -939,11 +901,10 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 125
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
-          "file": "/Users/zoomdong/Documents/Codex/2026-05-12/hackthon/utoo-pet-run/frames/review/05.png",
           "width": 192,
           "height": 208,
           "nontransparent_pixels": 19093,
@@ -954,9 +915,11 @@
             203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 130
+          "chroma_adjacent_pixels": 0
         }
-      ]
+      ],
+      "row": 8
     }
-  ]
+  ],
+  "spritesheet": "assets/utoo/spritesheet.webp"
 }

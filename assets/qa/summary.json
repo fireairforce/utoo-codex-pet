@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "spriteVersionNumber": 2,
+  "spritesheet": "assets/utoo/spritesheet.webp",
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "cellSize": [
+    192,
+    208
+  ],
+  "rows": 11,
+  "originalAnimationFramesPreserved": 57,
+  "lookDirectionCount": 16,
+  "validation": "assets/qa/validation.json",
+  "frameReview": "assets/qa/review.json",
+  "visualReview": "assets/qa/final-visual-qa.json",
+  "directionSemantics": "assets/qa/direction-semantics.json",
+  "blindDirectionValidation": "assets/qa/direction-blind-validation.json",
+  "blindReviewResolution": "assets/qa/blind-review-resolution.json",
+  "continuity": "assets/qa/look-continuity.json",
+  "despill": "assets/qa/chroma-despill-extended.json",
+  "preservation": "assets/qa/upgrade-preservation.json",
+  "preview": "assets/previews/look-directions.gif",
+  "allCardinalsPassedThreeBlindReviewers": true,
+  "acceptedWarningDirections": [
+    "067.5",
+    "112.5",
+    "157.5",
+    "292.5",
+    "315",
+    "337.5"
+  ],
+  "generationMode": "built-in imagegen",
+  "sha256": "c7cc681723ed4a4d6045d4afbaf959133c09375040a03efed0ad306e67ceb57e"
+}

@@ -1,0 +1,12 @@
+{
+  "visual_qa": "pass",
+  "reviewed_by": "independent final_visual_qa worker",
+  "qa_note": "All57 original animationframes preservealpha/geometry and correctmotions;16lookposes preserveidentity, scale, registration, angularsliteyes and readableclockwiseattentionloop",
+  "review_warnings": [
+    "Six intermediate blind-axis ambiguities accepted at067.5,112.5,157.5,292.5,315,337.5",
+    "225 similar to202.5",
+    "Natural pose-area variation and feet-gap alpha-hole metric flags; no visible hardfailure"
+  ],
+  "repair_rows": [],
+  "repair_notes": "No repair needed"
+}
